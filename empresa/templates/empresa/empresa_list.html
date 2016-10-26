@@ -1,0 +1,12 @@
+{% extends 'empresa/base.html' %}
+
+
+{% block content %}
+{% for post in empresas %}
+    <div>
+        <p>Nombre de la empresa: {{ post.nombre_empresa}}  </p>
+        <p>  Calificación: {{ post.calificacion}}</p>
+
+    </div>
+{% endfor %}
+ {% endblock content %}

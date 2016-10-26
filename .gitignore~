@@ -8,7 +8,6 @@
 *.gch
 *.pch
 *.pyc
-
 # Libraries
 *.lib
 *.a
