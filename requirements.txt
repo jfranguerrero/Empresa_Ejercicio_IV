@@ -1,4 +1,4 @@
 Django==1.10.2
 urllib3==1.18
-wheel==0.30.0a0
+wheel==0.38.1
 setuptools==28.6.1
